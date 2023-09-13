@@ -35872,10 +35872,10 @@ class dp extends U.exports.Component {
 	}
 	getSloganLength(SloganLength) {
 		var FontFit = 22;
-		var FontSize = 18;
+		var FontSize = 16;
 		if (FontFit < SloganLength){
 			return FontSize * FontFit/SloganLength
-		} else {return  18}
+		} else {return  16}
 	}
     render() {
         const {
