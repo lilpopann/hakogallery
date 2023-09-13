@@ -38410,10 +38410,10 @@ function Che() {
             className: "main-section home-page",
             children: N("div", {
                 className: "bottom-text",
-                children: ["Not what you're looking for? Find our official site at ", h("a", {
+                children: ["もしかして、違うページに迷ってしまいましたか？公式サイトがご参考になるかもしれませんので、", h("a", {
                     href: "https://jackboxgames.com/",
                     children: "jackboxgames.com"
-                }), ".", h("span", {
+                }), h("span", {
                     className: "version-text",
                     children: "2.0.24"
                 })]
