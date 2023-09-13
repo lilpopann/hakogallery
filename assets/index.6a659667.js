@@ -35774,6 +35774,15 @@ class dp extends U.exports.Component {
 			case "#2a3a2a":
 				shirtBackground.src = "/assets/shirt-5.png";
 				break;
+			case "#080808":
+				shirtBackground.src = "/assets/shirt-6.png";
+				break;
+			case "#51346c":
+				shirtBackground.src = "/assets/shirt-7.png";
+				break;
+			case "#43342e":
+				shirtBackground.src = "/assets/shirt-8.png";
+				break;
 		}
 		shirtBackground.onload = function(){
 
@@ -35878,7 +35887,6 @@ class dp extends U.exports.Component {
             struck: o
         } = this.props;
         let s = "";
-		console.log(i);
 		
         i.gameWinner ? s = r.PREFIX.WINNER : (i.gauntletWinner || i.streakWinner) && (s = r.PREFIX.RUNNER_UP);
         const d = {
